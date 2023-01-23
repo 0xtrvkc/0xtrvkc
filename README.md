@@ -8,15 +8,17 @@
 </p>
 
 ```javascript
-const myFuture = (mySituation) => {
-    if(mySituation == "I'm learning coding"){
-        return "I'm still a policy and plan analyst (my full-time job)"
-    }else if(mySituation == "I'm building coding projects for my resume"){
-        return "I'm applying for front/back-end dev job"
-    }else if(mySituation == "DREAM COMES TRUE"){
-        return "I finally landed my dream job!"
+    const myFuture = (mySituation) => {
+        switch (s) {
+            case "I'm learning coding":
+                return "I'm still a plan and policy analyst (my full-time job)";
+            case "I'm building coding projects for my resume":
+                return "I'm applying for front/back-end dev job";
+            case "DREAM COMES TRUE":
+                return "I finally landed my dream job!";
+        }
     }
-}
+    
 myFuture ("I'm learning coding");
 ```
 
