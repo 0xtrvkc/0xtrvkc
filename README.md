@@ -9,19 +9,22 @@
 
 ```javascript
    const myFuture = (mySituation, jobType, currentJob, dreamJob) => {
-    switch (mySituation) {
+  switch (mySituation) {
     case "I'm learning coding":
-    return I'm still a ${currentJob} (my full-time job) but I'm learning ${jobType} skills;
+      return `I'm still a ${currentJob} (my full-time job) but I'm learning ${jobType} skills`;
     case "I'm building coding projects for my resume":
-    return I'm applying for ${jobType} job and building projects to showcase my skills;
+      return `I'm applying for ${jobType} job and building projects to showcase my skills`;
     case "DREAM COMES TRUE":
-    return I finally landed my dream job as a ${dreamJob}!;
+      return `I finally landed my dream job as a ${dreamJob}!`;
     default:
-    return "I'm not sure what my future holds";
-    }
-    }
-    
-    console.log(myFuture("I'm learning coding", "web development", "plan and policy analyst"));
+      return "I'm not sure what my future holds";
+  }
+};
+
+console.log(
+  myFuture("I'm learning coding", "web development", "plan and policy analyst")
+);
+
 
 ```
 
