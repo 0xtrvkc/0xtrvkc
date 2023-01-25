@@ -9,16 +9,17 @@
 
 ```javascript
     const myFuture = (mySituation) => {
-        switch (s) {
-            case "I'm learning coding":
-                return "I'm still a plan and policy analyst (my full-time job)";
-            case "I'm building coding projects for my resume":
-                return "I'm applying for front/back-end dev job";
-            case "DREAM COMES TRUE":
-                return "I finally landed my dream job!";
-        }
+    switch (mySituation) {
+        case "I'm learning coding":
+            return "I'm still a plan and policy analyst (my full-time job)";
+        case "I'm building coding projects for my resume":
+            return "I'm applying for front/back-end dev job";
+        case "DREAM COMES TRUE":
+            return "I finally landed my dream job!";
     }
-    
-myFuture ("I'm learning coding");
+}
+
+myFuture("I'm learning coding");
+
 ```
 
