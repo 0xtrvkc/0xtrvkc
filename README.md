@@ -1,30 +1,37 @@
-<h2><samp> Hi, I'm Sirapob!🤓</samp></h2>
-<p><samp>fueled by caffeine and noodle</samp><br>
-<p><samp>Policy and plan analys at </samp><a href="https://mahidol.ac.th/"><samp>Mahidol University</samp></a>
-</br><p><samp>3D/NFT artist </samp><a href="https://linktr.ee/trvkc"><samp>0xtrvkc</samp></a></br>
+# 0xtrvkc
 
-<p align="center">
-  <img width="250" src="https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif">
-</p>
+Building tools at the intersection of **markets, data, and code**.
 
-```javascript
-   const myFuture = (mySituation, jobType, currentJob, dreamJob) => {
-  switch (mySituation) {
-    case "I'm learning coding":
-      return `I'm still a ${currentJob} (my full-time job) but I'm learning ${jobType} skills`;
-    case "I'm building coding projects for my resume":
-      return `I'm applying for ${jobType} job and building projects to showcase my skills`;
-    case "DREAM COMES TRUE":
-      return `I finally landed my dream job as a ${dreamJob}!`;
-    default:
-      return "I'm not sure what my future holds";
-  }
-};
+Focused on quantitative finance — market microstructure, on-chain analytics, and signal research. Currently deep in derivatives data and building toward systematic trading infrastructure.
 
-console.log(
-  myFuture("I'm learning coding", "web development", "plan and policy analyst")
-);
+---
 
+## Projects
 
-```
+### [Gold / GC Intraday OI & SD Visualizer](https://github.com/0xtrvkc/Gold-OG-GC-intraday-oi-SD-Visualizer)
+Intraday open interest and standard deviation visualizer for Gold futures (GC). Built for reading positioning shifts and volatility structure within the session — the kind of data that doesn't show up on a regular price chart.
 
+### [Dynamic BTC Analytics Dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard)
+On-chain analytics interface centered on MVRV (Market Value to Realized Value). Features Z-score, momentum, cycle overlay, drawdown analysis, and peak regression — with automated BTC price data fetching via GitHub Actions. Built to cut through dashboard friction and get straight to the signal.
+
+### [Budget Fetch (v1 & v2)](https://github.com/0xtrvkc/testBudgetFetch69_2)
+Lightweight data-fetching experiments. Iteration in public.
+
+---
+
+## Interests
+
+- Derivatives microstructure (futures OI, options flow, funding)
+- On-chain metrics as macro indicators
+- Signal construction & backtesting
+- Market cycle analysis
+
+---
+
+## Stack
+
+`Python` · `HTML/JS` · `GitHub Actions` · `JSON/REST APIs`
+
+---
+
+*Work in progress. Building in public.*
