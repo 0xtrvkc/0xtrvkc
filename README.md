@@ -2,7 +2,7 @@
 
 Building tools at the intersection of **markets, data, and code**.
 
-Focused on quantitative finance — market microstructure, on-chain analytics, and signal research. Currently deep in derivatives data and building toward systematic trading infrastructure.
+Focused on quantitative finance, market microstructure, on-chain analytics, and signal research. Currently deep in derivatives data and building toward systematic trading infrastructure.
 
 ---
 
