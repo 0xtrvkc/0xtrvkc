@@ -17,11 +17,11 @@
 <text x="460" y="237" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">6</text>
 <text x="40" y="280" font-family="Arial,sans-serif" font-size="13" fill="#334155">Decision tools</text>
 <rect x="170" y="267" width="280" height="16" rx="4" fill="#e2e8f0"/>
-<rect x="170" y="267" width="61" height="16" rx="4" fill="#0d9488"/>
+<rect x="170" y="267" width="61" height="16" rx="4" fill="#dc2626"/>
 <text x="460" y="280" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">5</text>
 <text x="40" y="323" font-family="Arial,sans-serif" font-size="13" fill="#334155">Learning</text>
 <rect x="170" y="310" width="280" height="16" rx="4" fill="#e2e8f0"/>
-<rect x="170" y="310" width="12" height="16" rx="4" fill="#7c3aed"/>
+<rect x="170" y="310" width="12" height="16" rx="4" fill="#eab308"/>
 <text x="460" y="323" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">1</text>
 <text x="40" y="366" font-family="Arial,sans-serif" font-size="13" fill="#334155">Other builds</text>
 <rect x="170" y="353" width="280" height="16" rx="4" fill="#e2e8f0"/>
