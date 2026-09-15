@@ -33,18 +33,22 @@ TRACKED = {
 }
 
 CURATED = {
-    "ARE-YOU-READY-": "Adaptive trading-readiness assessment for beginner and quantitative routes",
-    "btc-grid-sandbox": "Grid-strategy backtesting, cash-flow, APR, and risk analysis",
-    "btc-options-sandbox": "BTC Friday 0DTE range-risk and options research workspace",
-    "grid-bot-post-mortem": "Grid-bot performance, inventory, and cash-flow review",
-    "tradingPortfolioDashboard": "Trading portfolio monitoring and analytics dashboard",
-    "Fade-self-erasing-clipboard": "Cross-device clipboard with controlled, self-erasing content",
-    "prop_challenge_simulator": "Prop-challenge probability and risk simulator",
-    "btcEmaCrossBacktest": "BTC dual-EMA crossover research and backtesting",
-    "btcLoanAnalyzer": "BTC-collateral loan, LTV, and repayment scenario modelling",
-    "dynamic-btc-analytics-dashboard": "MVRV, market-cycle, momentum, and drawdown analytics",
-    "pvd-vs-investment": "Provident-fund versus independent-investment comparison",
-    "itd-oi-db": "Gold intraday open-interest and volatility research database",
+    "ARE-YOU-READY-": "Adaptive trading assessment with beginner and quant paths",
+    "btc-grid-sandbox": "Compare grid returns, inventory, and range risk",
+    "btc-options-sandbox": "Study Friday 0DTE range and breach risk",
+    "grid-bot-post-mortem": "Review bot cash flow and open inventory",
+    "tradingPortfolioDashboard": "Monitor trading portfolio performance",
+    "Fade-self-erasing-clipboard": "Organize temporary notes and media",
+    "prop_challenge_simulator": "Simulate prop-challenge risk and outcomes",
+    "btcEmaCrossBacktest": "Test dual-EMA crossover strategies",
+    "btcLoanAnalyzer": "Compare BTC-loan LTV and repayment paths",
+    "dynamic-btc-analytics-dashboard": "Interpret MVRV, cycles, and drawdowns",
+    "pvd-vs-investment": "Compare provident-fund and investment paths",
+    "itd-oi-db": "Explore gold open interest and volatility",
+    "dynamic-btc-dxy-analytics-dashboard": "Explore BTC and DXY analytics",
+    "BTC-Daily-Short-Call-Premium-Income-Checklist": "Review a daily BTC short-call checklist",
+    "Portfolio": "Browse selected projects",
+    "dynamic-btc-analytics-dashboard_mobile": "Explore BTC analytics on mobile",
 }
 
 
@@ -102,7 +106,8 @@ def workflow_status(repo: str) -> tuple[str, str, str]:
     if not scheduled:
         return "None detected", "—", "No schedule"
 
-    names = ", ".join(workflow["name"] for workflow in scheduled)
+    count = len(scheduled)
+    names = f"{count} scheduled workflow" + ("s" if count != 1 else "")
     disabled = [workflow for workflow in scheduled if workflow.get("state") != "active"]
     if disabled:
         return names, "—", "Attention: disabled"
@@ -143,23 +148,25 @@ def main() -> None:
         and not repo["archived"]
         and repo["name"].lower() != OWNER.lower()
     ]
-    visible = maintained[:LIMIT]
+    visible = sorted(maintained, key=lambda repo: repo.get("pushed_at") or "", reverse=True)[:LIMIT]
 
     repo_rows = [
-        "| Project | Deliverable | Stack | Last updated |",
-        "| --- | --- | --- | --- |",
+        "| Project | What it helps with | Last code push |",
+        "| --- | --- | ---",
     ]
     for repo in visible:
         name = repo["name"]
         description = CURATED.get(name) or repo.get("description") or fallback_description(name)
-        description = description.replace("|", "\\|").replace("\n", " ")
-        language = repo.get("language") or "—"
-        updated = datetime.fromisoformat(repo["updated_at"].replace("Z", "+00:00")).date().isoformat()
+        description = " ".join(description.replace("|", "\\|").split())
+        if len(description) > 88:
+            description = description[:85].rsplit(" ", 1)[0] + "…"
+        pushed = repo.get("pushed_at")
+        updated = datetime.fromisoformat(pushed.replace("Z", "+00:00")).date().isoformat() if pushed else "—"
         url = repo.get("homepage") or repo["html_url"]
-        repo_rows.append(f"| [{name}]({url}) | {description} | {language} | {updated} |")
+        repo_rows.append(f"| [{name}]({url}) | {description} | {updated} |")
 
     ops_rows = [
-        "| Project | Scheduled automation | Latest run | Health |",
+        "| Project | Scheduled workflows | Latest run | Status |",
         "| --- | --- | --- | --- |",
     ]
     automated_projects = 0
