@@ -1,22 +1,90 @@
-# 0xtrvkc
+# Sirapob Dangpad
 
-I build practical tools where **markets, data, policy, and code** meet.
+### Project Manager · Policy & Planning Analyst · Data-informed Product Builder
 
-Policy & plan analyst in Bangkok, self-taught developer, quantitative-market researcher, and freelance 3D artist. My projects turn complicated questions—Bitcoin cycles, options risk, grid cash flow, collateral loans, and everyday financial decisions—into browser-based tools people can actually use.
+Bangkok, Thailand · [Portfolio](https://0xtrvkc.github.io/Portfolio/) · [Project archive](https://github.com/0xtrvkc?tab=repositories)
 
-[Open my portfolio](https://0xtrvkc.github.io/Portfolio/) · [Browse all repositories](https://github.com/0xtrvkc?tab=repositories)
+I turn unclear problems into structured, usable deliverables. My background combines policy and planning work at Mahidol University with hands-on delivery of browser-based research tools, dashboards, simulators, and creative projects.
 
-## Current focus
+I am pursuing project management roles where I can coordinate requirements, organize work, communicate across technical and non-technical contexts, and carry a project from early definition through launch and improvement.
 
-- Quantitative finance, derivatives, and market microstructure
-- Bitcoin on-chain analytics, cycle research, and backtesting
-- Explainable research tools with friendly desktop and mobile UX
-- Lightweight web apps built to run without a heavy stack
-- Creative work across 3D, motion, and visual experiments
+## What I can deliver
+
+- Convert stakeholder needs and loosely defined ideas into scope, priorities, milestones, and acceptance criteria
+- Break complex work into manageable releases while protecting the core user outcome
+- Coordinate research, data, design, implementation, testing, documentation, and release activities
+- Build clear dashboards and decision tools that make technical or financial information easier to act on
+- Review calculations, edge cases, data assumptions, mobile behavior, and user flows before delivery
+- Improve products iteratively from observed problems and user feedback
+- Set up lightweight GitHub workflows for repeatable updates, checks, and deployments
+- Communicate findings in plain English and Thai for technical and non-technical audiences
+
+## Professional experience
+
+### Policy & Plan Analyst — Mahidol University
+
+- Support planning, analysis, reporting, and coordination in a university environment
+- Organize information from multiple sources into structured outputs for decision-making
+- Translate policy or operational questions into measurable work and practical next steps
+- Work across administrative, academic, and technical contexts where accuracy and clarity matter
+
+### Independent Project & Product Work
+
+- Scope and deliver web-based tools from problem definition through testing, documentation, and release
+- Manage a growing portfolio spanning market research, financial modelling, analytics, productivity, and education
+- Design for desktop and mobile users, emphasizing transparent assumptions and explainable results
+- Maintain projects after launch through bug fixes, workflow improvements, and new-data compatibility
+
+### Freelance 3D Artist
+
+- Translate creative briefs into visual deliverables and revise work against feedback
+- Balance concept, technical constraints, presentation quality, and deadlines
+- Produce 3D art, loops, motion experiments, and campaign-ready visual assets
+
+## Selected project delivery
+
+| Project | Problem addressed | What I delivered |
+| --- | --- | --- |
+| [BTC Grid Sandbox](https://0xtrvkc.github.io/btc-grid-sandbox/) | Grid returns can look profitable while inventory is underwater | A backtesting workspace focused on realized cash flow, open inventory, APR/APY, range behavior, and linked strategy inputs |
+| [BTC Options Sandbox](https://0xtrvkc.github.io/btc-options-sandbox/) | Historical spot data does not directly explain Friday 0DTE range risk | A research product with configurable tests, breach analysis, historical cases, reporting modes, and documentation |
+| [BTC Loan Analyzer](https://0xtrvkc.github.io/btcLoanAnalyzer/) | Collateral loans involve interacting price, LTV, repayment, and opportunity-cost decisions | A scenario modeller that makes trade-offs and outcomes visible |
+| [Dynamic BTC Analytics](https://0xtrvkc.github.io/dynamic-btc-analytics-dashboard/) | Cycle and on-chain indicators are difficult to interpret together | A responsive dashboard combining MVRV, momentum, drawdown, crossover, and cycle views |
+| [ARE YOU READY?](https://0xtrvkc.github.io/ARE-YOU-READY-/) | Trading knowledge differs sharply between beginners and advanced users | An adaptive assessment with learning routes, scoring, bilingual support, and answer-state management |
+| [Fade](https://0xtrvkc.github.io/Fade-self-erasing-clipboard/) | Temporary notes and media become cluttered or persist too long | A manageable self-erasing clipboard with grouping, drag-and-drop, media handling, and responsive interaction |
+
+## Project management strengths
+
+| Area | Evidence from my work |
+| --- | --- |
+| Discovery & scope | Turn ambiguous ideas into explicit goals, constraints, inputs, outputs, and success conditions |
+| Planning & prioritization | Separate essential releases from later enhancements and preserve requested constraints |
+| Delivery ownership | Work across research, UX, implementation, validation, documentation, and release |
+| Risk & quality | Check formulas, edge cases, data freshness, future-data behavior, and user-facing explanations |
+| Stakeholder communication | Present complex material with clear language, structured reports, and beginner/advanced views |
+| Continuous improvement | Revisit shipped products, diagnose friction, and deliver focused iterations |
+| Automation | Use GitHub Actions and data-refresh workflows to reduce repetitive maintenance |
+
+## Tools and working knowledge
+
+**Planning & analysis:** requirements definition, workflow mapping, research synthesis, KPI thinking, scenario analysis, documentation, Google Sheets
+
+**Delivery & product:** UX review, responsive design, testing, release iteration, GitHub, GitHub Actions
+
+**Technical:** HTML, CSS, JavaScript, Python, Chart.js, Firebase, REST APIs, data visualization
+
+**Creative:** Blender, 3D art, motion, visual storytelling
+
+**Languages:** Thai (native) · English (working proficiency)
+
+## Education
+
+**B.Sc. in Conservation Biology**
+
+The degree trained me to work with evidence, systems, uncertainty, field constraints, and multidisciplinary questions—skills I now apply to planning and project delivery.
 
 ## Recently updated projects
 
-This section updates automatically from my public repositories.
+This table refreshes automatically every six hours, so new public repositories and recent work appear without manual editing.
 
 <!-- RECENT-REPOS:START -->
 | Project | Deliverable | Stack | Last updated |
@@ -35,17 +103,6 @@ This section updates automatically from my public repositories.
 | [dynamic-btc-analytics-dashboard_mobile](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard_mobile) | Dynamic btc analytics dashboard mobile | HTML | 2026-09-08 |
 <!-- RECENT-REPOS:END -->
 
-## How I build
-
-`HTML` · `CSS` · `JavaScript` · `Python` · `Chart.js` · `Firebase` · `REST APIs` · `GitHub Actions`
-
-I favor transparent assumptions, reproducible calculations, responsive interfaces, and tools that remain useful as new data arrives.
-
-## Elsewhere
-
-- [Videography — @expsr.v](https://instagram.com/expsr.v)
-- [3D / loop animation — @contrvkc](https://instagram.com/contrvkc)
-
 ---
 
-<sub>Building in public. Financial projects are research and educational tools, not investment advice.</sub>
+I build in public. Financial projects are research and educational tools, not investment advice.
