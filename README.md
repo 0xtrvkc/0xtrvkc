@@ -61,6 +61,22 @@ I am pursuing project management roles where I can coordinate requirements, orga
 
 **Languages:** Thai (native) · English (working proficiency)
 
+## Delivery operations
+
+I maintain a small set of production projects with visible automation health. This tracker is refreshed with the project list every six hours.
+
+<!-- WORKFLOW-TRACKER:START -->
+| Project | Scheduled automation | Latest run | Health |
+| --- | --- | --- | --- |
+| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | Refresh profile projects | Pending first scan | Monitoring |
+| [BTC Grid Sandbox](https://github.com/0xtrvkc/btc-grid-sandbox/actions) | Pending scan | — | Monitoring |
+| [BTC Options Sandbox](https://github.com/0xtrvkc/btc-options-sandbox/actions) | Pending scan | — | Monitoring |
+| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | Pending scan | — | Monitoring |
+| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | Pending scan | — | Monitoring |
+| [ARE YOU READY?](https://github.com/0xtrvkc/ARE-YOU-READY-/actions) | Pending scan | — | Monitoring |
+| [Fade](https://github.com/0xtrvkc/Fade-self-erasing-clipboard/actions) | Pending scan | — | Monitoring |
+<!-- WORKFLOW-TRACKER:END -->
+
 ## Recently updated projects
 
 This table refreshes automatically every six hours, so new public repositories and recent work appear without manual editing.
