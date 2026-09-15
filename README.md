@@ -66,18 +66,20 @@ I am pursuing project management roles where I can coordinate requirements, orga
 A concise portfolio view for quick stakeholder reporting. Metrics are generated from public repository and workflow data.
 
 <!-- DELIVERY-SNAPSHOT:START -->
-![Maintained projects](https://img.shields.io/badge/Maintained_projects-scanning-334155?style=for-the-badge)
-![Recently active](https://img.shields.io/badge/Active_30d-scanning-2563eb?style=for-the-badge)
-![Scheduled automations](https://img.shields.io/badge/Scheduled_automations-scanning-7c3aed?style=for-the-badge)
-![Automation health](https://img.shields.io/badge/Automation_health-scanning-059669?style=for-the-badge)
+![Maintained projects](https://img.shields.io/badge/Maintained_projects-23-334155?style=for-the-badge)
+![Recently active](https://img.shields.io/badge/Active_30d-17-2563eb?style=for-the-badge)
+![Automated projects](https://img.shields.io/badge/Automated_projects-3-7c3aed?style=for-the-badge)
+![Automation health](https://img.shields.io/badge/Automation_health-3/3-059669?style=for-the-badge)
 
 ```mermaid
 pie showData
     title Technology mix across maintained projects
-    "Scanning portfolio" : 1
+    "HTML" : 19
+    "JavaScript" : 3
+    "Other" : 1
 ```
 
-<sub>Snapshot pending first automated refresh.</sub>
+<sub>Updated 2026-09-15 09:21 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 ## Delivery operations
