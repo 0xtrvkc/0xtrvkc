@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510" role="img" aria-labelledby="title desc">
+<title id="title">Public project delivery brief</title>
+<desc id="desc">Repository counts by category, weekly last-push activity, and five recently pushed projects. Counts reflect public non-fork, non-archived repositories, not project completion or team delivery.</desc>
+<rect width="960" height="510" fill="#f8fafc"/><rect x="16" y="16" width="928" height="478" rx="16" fill="white" stroke="#cbd5e1"/>
+<text x="40" y="58" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#0f172a">Public project delivery brief</text>
+<text x="40" y="84" font-family="Arial,sans-serif" font-size="13" fill="#475569">Source: GitHub public repository metadata · Refreshed 2026-09-15 09:34 UTC</text>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#0f172a">23</text>
+<text x="40" y="157" font-family="Arial,sans-serif" font-size="12" fill="#475569">maintained public repos</text>
+<text x="266" y="135" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#2563eb">17</text>
+<text x="266" y="157" font-family="Arial,sans-serif" font-size="12" fill="#475569">pushed in past 30 days</text>
+<path d="M40 177H920" stroke="#e2e8f0"/>
+<text x="40" y="211" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Project mix</text>
+<text x="492" y="211" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Last push by week</text>
+<text x="40" y="237" font-family="Arial,sans-serif" font-size="13" fill="#334155">Analytics</text>
+<rect x="170" y="224" width="280" height="16" rx="4" fill="#e2e8f0"/>
+<rect x="170" y="224" width="73" height="16" rx="4" fill="#2563eb"/>
+<text x="460" y="237" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">6</text>
+<text x="40" y="280" font-family="Arial,sans-serif" font-size="13" fill="#334155">Decision tools</text>
+<rect x="170" y="267" width="280" height="16" rx="4" fill="#e2e8f0"/>
+<rect x="170" y="267" width="61" height="16" rx="4" fill="#0d9488"/>
+<text x="460" y="280" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">5</text>
+<text x="40" y="323" font-family="Arial,sans-serif" font-size="13" fill="#334155">Learning</text>
+<rect x="170" y="310" width="280" height="16" rx="4" fill="#e2e8f0"/>
+<rect x="170" y="310" width="12" height="16" rx="4" fill="#7c3aed"/>
+<text x="460" y="323" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">1</text>
+<text x="40" y="366" font-family="Arial,sans-serif" font-size="13" fill="#334155">Other builds</text>
+<rect x="170" y="353" width="280" height="16" rx="4" fill="#e2e8f0"/>
+<rect x="170" y="353" width="134" height="16" rx="4" fill="#64748b"/>
+<text x="460" y="366" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">11</text>
+<rect x="500" y="346" width="32" height="0" rx="3" fill="#2563eb"/>
+<text x="516" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">0</text>
+<text x="516" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">21 Jul</text>
+<rect x="552" y="346" width="32" height="0" rx="3" fill="#2563eb"/>
+<text x="568" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">0</text>
+<text x="568" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">28 Jul</text>
+<rect x="604" y="336" width="32" height="10" rx="3" fill="#2563eb"/>
+<text x="620" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
+<text x="620" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">04 Aug</text>
+<rect x="656" y="336" width="32" height="10" rx="3" fill="#2563eb"/>
+<text x="672" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
+<text x="672" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">11 Aug</text>
+<rect x="708" y="336" width="32" height="10" rx="3" fill="#2563eb"/>
+<text x="724" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
+<text x="724" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">18 Aug</text>
+<rect x="760" y="336" width="32" height="10" rx="3" fill="#2563eb"/>
+<text x="776" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
+<text x="776" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">25 Aug</text>
+<rect x="812" y="317" width="32" height="29" rx="3" fill="#2563eb"/>
+<text x="828" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">3</text>
+<text x="828" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">01 Sep</text>
+<rect x="864" y="238" width="32" height="108" rx="3" fill="#2563eb"/>
+<text x="880" y="229" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">11</text>
+<text x="880" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">08 Sep</text>
+<path d="M40 394H920" stroke="#e2e8f0"/>
+<text x="40" y="422" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#0f172a">Recently pushed</text>
+<text x="40" y="445" font-family="Arial,sans-serif" font-size="12" fill="#334155">itd-oi-db, dynamic-btc-analytics-dashboard, btc-grid-sandbox, Fade-self-erasing-clipboard, btcLoanAna...</text>
+<text x="40" y="475" font-family="Arial,sans-serif" font-size="11" fill="#64748b">A push is a code update, not a completed milestone. Categories are inferred from repository names and descriptions.</text>
+</svg>
