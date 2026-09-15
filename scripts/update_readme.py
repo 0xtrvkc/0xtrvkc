@@ -4,13 +4,14 @@
 from __future__ import annotations
 
 import base64
+from collections import Counter
 import json
 import os
 import re
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 OWNER = "0xtrvkc"
 README = "README.md"
@@ -18,6 +19,8 @@ REPOS_START = "<!-- RECENT-REPOS:START -->"
 REPOS_END = "<!-- RECENT-REPOS:END -->"
 OPS_START = "<!-- WORKFLOW-TRACKER:START -->"
 OPS_END = "<!-- WORKFLOW-TRACKER:END -->"
+SNAPSHOT_START = "<!-- DELIVERY-SNAPSHOT:START -->"
+SNAPSHOT_END = "<!-- DELIVERY-SNAPSHOT:END -->"
 LIMIT = 12
 
 TRACKED = {
@@ -135,12 +138,13 @@ def main() -> None:
         f"https://api.github.com/users/{OWNER}/repos"
         "?per_page=100&sort=updated&direction=desc&type=owner"
     ) or []
-    visible = [
+    maintained = [
         repo for repo in repos
         if not repo["fork"]
         and not repo["archived"]
         and repo["name"].lower() != OWNER.lower()
-    ][:LIMIT]
+    ]
+    visible = maintained[:LIMIT]
 
     repo_rows = [
         "| Project | Deliverable | Stack | Last updated |",
@@ -159,16 +163,54 @@ def main() -> None:
         "| Project | Scheduled automation | Latest run | Health |",
         "| --- | --- | --- | --- |",
     ]
+    automated_projects = 0
+    healthy_automations = 0
     for repo, label in TRACKED.items():
         workflow, last_run, health = workflow_status(repo)
         if workflow == "None detected":
             continue
+        automated_projects += 1
+        if health in ("Healthy", "Ready"):
+            healthy_automations += 1
         actions_url = f"https://github.com/{OWNER}/{repo}/actions"
         ops_rows.append(f"| [{label}]({actions_url}) | {workflow} | {last_run} | {health} |")
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=30)
+    recently_active = sum(
+        datetime.fromisoformat(repo["updated_at"].replace("Z", "+00:00")) >= cutoff
+        for repo in maintained
+    )
+    language_counts = Counter(repo.get("language") or "Other" for repo in maintained)
+    language_lines = [
+        f'    "{language.replace(chr(34), chr(39))}" : {count}'
+        for language, count in language_counts.most_common(5)
+    ] or ['    "No language data" : 1']
+    refreshed = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    health_value = (
+        f"{healthy_automations}/{automated_projects}"
+        if automated_projects else "0/0"
+    )
+    snapshot_rows = [
+        f"![Maintained projects](https://img.shields.io/badge/Maintained_projects-{len(maintained)}-334155?style=for-the-badge)",
+        f"![Recently active](https://img.shields.io/badge/Active_30d-{recently_active}-2563eb?style=for-the-badge)",
+        f"![Automated projects](https://img.shields.io/badge/Automated_projects-{automated_projects}-7c3aed?style=for-the-badge)",
+        f"![Automation health](https://img.shields.io/badge/Automation_health-{health_value}-059669?style=for-the-badge)",
+        "",
+        "```mermaid",
+        "pie showData",
+        "    title Technology mix across maintained projects",
+        *language_lines,
+        "```",
+        "",
+        f"<sub>Updated {refreshed} · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>",
+    ]
 
     readme = open(README, encoding="utf-8").read()
     updated_readme = replace_block(readme, REPOS_START, REPOS_END, repo_rows)
     updated_readme = replace_block(updated_readme, OPS_START, OPS_END, ops_rows)
+    updated_readme = replace_block(
+        updated_readme, SNAPSHOT_START, SNAPSHOT_END, snapshot_rows
+    )
 
     if updated_readme != readme:
         with open(README, "w", encoding="utf-8", newline="\n") as handle:
