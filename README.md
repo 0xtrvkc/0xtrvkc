@@ -61,12 +61,6 @@ I am pursuing project management roles where I can coordinate requirements, orga
 
 **Languages:** Thai (native) · English (working proficiency)
 
-## Education
-
-**B.Sc. in Conservation Biology**
-
-The degree trained me to work with evidence, systems, uncertainty, field constraints, and multidisciplinary questions—skills I now apply to planning and project delivery.
-
 ## Recently updated projects
 
 This table refreshes automatically every six hours, so new public repositories and recent work appear without manual editing.
