@@ -82,6 +82,13 @@ pie showData
 <sub>Updated 2026-09-15 09:21 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
+
+### Stakeholder visual
+
+![Public project delivery brief](assets/delivery-brief.svg)
+
+This view refreshes daily from public GitHub repository metadata. It shows maintained repositories, projects pushed in the past 30 days, project mix, and the week of each repository's latest push. The source and UTC refresh time appear on the visual. A push indicates code activity, not a completed milestone; categories are inferred from repository names and descriptions.
+
 ## Delivery operations
 
 I maintain a small set of production projects with visible automation health. This tracker is refreshed with the project list every six hours.
