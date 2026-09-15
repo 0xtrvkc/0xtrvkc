@@ -1,6 +1,6 @@
 # Sirapob Dangpad
 
-### Project Manager · Data-informed Product Builder
+### Project Management Candidate · Product & Analytics Builder
 
 Bangkok, Thailand · [Portfolio](https://0xtrvkc.github.io/Portfolio/) · [Project archive](https://github.com/0xtrvkc?tab=repositories)
 
