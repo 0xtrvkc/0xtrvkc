@@ -2,7 +2,7 @@
 
 ### Project Management Candidate · Product & Analytics Builder
 
-Bangkok, Thailand · [Portfolio](https://0xtrvkc.github.io/Portfolio/) · [Project archive](https://github.com/0xtrvkc?tab=repositories)
+Bangkok, Thailand · [cryptotrvkc@gmail.com](mailto:cryptotrvkc@gmail.com) · [Portfolio](https://0xtrvkc.github.io/Portfolio/) · [Project archive](https://github.com/0xtrvkc?tab=repositories)
 
 I turn unclear problems into structured, usable deliverables through hands-on delivery of browser-based research tools, dashboards, simulators, and decision-support products.
 
