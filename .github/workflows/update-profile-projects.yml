@@ -1,0 +1,109 @@
+name: Update profile projects
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-projects
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Build recent-project table
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require("fs");
+            const owner = context.repo.owner;
+            const markerStart = "<!-- RECENT-REPOS:START -->";
+            const markerEnd = "<!-- RECENT-REPOS:END -->";
+
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username: owner,
+              type: "owner",
+              sort: "updated",
+              direction: "desc",
+              per_page: 100
+            });
+
+            const visible = repos
+              .filter(repo =>
+                !repo.private &&
+                !repo.fork &&
+                !repo.archived &&
+                repo.name.toLowerCase() !== owner.toLowerCase()
+              )
+              .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+              .slice(0, 12);
+
+            const escapeCell = value => String(value || "")
+              .replace(/\|/g, "\\|")
+              .replace(/\r?\n/g, " ")
+              .trim();
+
+            const rows = visible.map(repo => {
+              const destination = repo.homepage?.startsWith("http")
+                ? repo.homepage
+                : repo.html_url;
+              const description = escapeCell(repo.description) || "Public project—open the repository for details.";
+              const language = escapeCell(repo.language) || "Mixed";
+              const updated = new Intl.DateTimeFormat("en-CA", {
+                timeZone: "Asia/Bangkok",
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit"
+              }).format(new Date(repo.pushed_at));
+              return `| [${escapeCell(repo.name)}](${destination}) | ${description} | ${language} | ${updated} |`;
+            });
+
+            const table = [
+              "| Project | What it is | Main language | Updated |",
+              "| --- | --- | --- | --- |",
+              ...rows
+            ].join("\n");
+
+            const path = "README.md";
+            const current = fs.readFileSync(path, "utf8");
+            const start = current.indexOf(markerStart);
+            const end = current.indexOf(markerEnd);
+
+            if (start === -1 || end === -1 || end < start) {
+              core.setFailed("README project markers are missing or out of order.");
+              return;
+            }
+
+            const next =
+              current.slice(0, start + markerStart.length) +
+              "\n" + table + "\n" +
+              current.slice(end);
+
+            if (next === current) {
+              core.info("Profile project table is already current.");
+              return;
+            }
+
+            fs.writeFileSync(path, next);
+            core.info(`Prepared ${visible.length} recent projects.`);
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No profile changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh profile projects"
+          git push
