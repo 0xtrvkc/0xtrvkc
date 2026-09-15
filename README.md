@@ -69,12 +69,8 @@ I maintain a small set of production projects with visible automation health. Th
 | Project | Scheduled automation | Latest run | Health |
 | --- | --- | --- | --- |
 | [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | Update profile projects, Refresh profile projects | Not run yet | Ready |
-| [BTC Grid Sandbox](https://github.com/0xtrvkc/btc-grid-sandbox/actions) | None detected | — | No schedule |
-| [BTC Options Sandbox](https://github.com/0xtrvkc/btc-options-sandbox/actions) | None detected | — | No schedule |
 | [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | Export daily position snapshot | 2026-09-15 | Healthy |
 | [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | Auto-Export MVRV Summary, Update Intraday Dashboard Data, Update MVRV Data, Update BTC price | 2026-09-15 | Healthy |
-| [ARE YOU READY?](https://github.com/0xtrvkc/ARE-YOU-READY-/actions) | None detected | — | No schedule |
-| [Fade](https://github.com/0xtrvkc/Fade-self-erasing-clipboard/actions) | None detected | — | No schedule |
 <!-- WORKFLOW-TRACKER:END -->
 
 ## Recently updated projects
