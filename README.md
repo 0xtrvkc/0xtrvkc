@@ -80,7 +80,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 | Learning & assessment | [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Route beginner and advanced learners through an adaptive assessment |
 | Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
-<sub>Updated 2026-09-15 09:21 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
+<sub>Updated 2026-09-15 09:54 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 
@@ -97,7 +97,7 @@ I maintain a small set of production projects with visible automation health. Th
 <!-- WORKFLOW-TRACKER:START -->
 | Project | Scheduled automation | Latest run | Health |
 | --- | --- | --- | --- |
-| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | Update profile projects, Refresh profile projects | Not run yet | Ready |
+| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | Refresh delivery visual, Update profile projects, Refresh profile projects | Not run yet | Ready |
 | [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | Export daily position snapshot | 2026-09-15 | Healthy |
 | [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | Auto-Export MVRV Summary, Update Intraday Dashboard Data, Update MVRV Data, Update BTC price | 2026-09-15 | Healthy |
 <!-- WORKFLOW-TRACKER:END -->
