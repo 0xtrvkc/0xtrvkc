@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import base64
-from collections import Counter
 import json
 import os
 import re
@@ -180,27 +179,39 @@ def main() -> None:
         datetime.fromisoformat(repo["updated_at"].replace("Z", "+00:00")) >= cutoff
         for repo in maintained
     )
-    language_counts = Counter(repo.get("language") or "Other" for repo in maintained)
-    language_lines = [
-        f'    "{language.replace(chr(34), chr(39))}" : {count}'
-        for language, count in language_counts.most_common(5)
-    ] or ['    "No language data" : 1']
+    maintained_names = {repo["name"] for repo in maintained}
+    featured = [
+        ("Analytics & reporting", "dynamic-btc-analytics-dashboard",
+         "Combine cycle, momentum and drawdown views for interpretation"),
+        ("Scenario & risk tools", "btc-grid-sandbox",
+         "Compare grid cash flow, open inventory and range risk"),
+        ("Learning & assessment", "ARE-YOU-READY-",
+         "Route beginner and advanced learners through an adaptive assessment"),
+        ("Productivity & workflows", "Fade-self-erasing-clipboard",
+         "Organize temporary content and control when it expires"),
+    ]
+    work_rows = [
+        "| Work area | Example | What the product helps someone do |",
+        "| --- | --- | --- |",
+        *(
+            f"| {area} | [{repo}](https://github.com/{OWNER}/{repo}) | {purpose} |"
+            for area, repo, purpose in featured if repo in maintained_names
+        ),
+    ]
     refreshed = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     health_value = (
         f"{healthy_automations}/{automated_projects}"
         if automated_projects else "0/0"
     )
     snapshot_rows = [
-        f"![Maintained projects](https://img.shields.io/badge/Maintained_projects-{len(maintained)}-334155?style=for-the-badge)",
-        f"![Recently active](https://img.shields.io/badge/Active_30d-{recently_active}-2563eb?style=for-the-badge)",
-        f"![Automated projects](https://img.shields.io/badge/Automated_projects-{automated_projects}-7c3aed?style=for-the-badge)",
-        f"![Automation health](https://img.shields.io/badge/Automation_health-{health_value}-059669?style=for-the-badge)",
+        f"![Maintained projects](https://img.shields.io/badge/Maintained_projects-{len(maintained)}-2563eb?style=for-the-badge)",
+        f"![Recently active](https://img.shields.io/badge/Active_30d-{recently_active}-dc2626?style=for-the-badge)",
+        f"![Automated projects](https://img.shields.io/badge/Automated_projects-{automated_projects}-eab308?style=for-the-badge)",
+        f"![Automation health](https://img.shields.io/badge/Automation_health-{health_value}-2563eb?style=for-the-badge)",
         "",
-        "```mermaid",
-        "pie showData",
-        "    title Technology mix across maintained projects",
-        *language_lines,
-        "```",
+        "### Work in practice",
+        "",
+        *work_rows,
         "",
         f"<sub>Updated {refreshed} · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>",
     ]

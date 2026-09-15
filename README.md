@@ -66,18 +66,19 @@ I am pursuing project management roles where I can coordinate requirements, orga
 A concise portfolio view for quick stakeholder reporting. Metrics are generated from public repository and workflow data.
 
 <!-- DELIVERY-SNAPSHOT:START -->
-![Maintained projects](https://img.shields.io/badge/Maintained_projects-23-334155?style=for-the-badge)
-![Recently active](https://img.shields.io/badge/Active_30d-17-2563eb?style=for-the-badge)
-![Automated projects](https://img.shields.io/badge/Automated_projects-3-7c3aed?style=for-the-badge)
-![Automation health](https://img.shields.io/badge/Automation_health-3/3-059669?style=for-the-badge)
+![Maintained projects](https://img.shields.io/badge/Maintained_projects-23-2563eb?style=for-the-badge)
+![Recently active](https://img.shields.io/badge/Active_30d-17-dc2626?style=for-the-badge)
+![Automated projects](https://img.shields.io/badge/Automated_projects-3-eab308?style=for-the-badge)
+![Automation health](https://img.shields.io/badge/Automation_health-3/3-2563eb?style=for-the-badge)
 
-```mermaid
-pie showData
-    title Technology mix across maintained projects
-    "HTML" : 19
-    "JavaScript" : 3
-    "Other" : 1
-```
+### Work in practice
+
+| Work area | Example | What the product helps someone do |
+| --- | --- | --- |
+| Analytics & reporting | [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Combine cycle, momentum and drawdown views for interpretation |
+| Scenario & risk tools | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid cash flow, open inventory and range risk |
+| Learning & assessment | [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Route beginner and advanced learners through an adaptive assessment |
+| Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
 <sub>Updated 2026-09-15 09:21 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
