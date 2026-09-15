@@ -1,10 +1,10 @@
 # Sirapob Dangpad
 
-### Project Manager · Policy & Planning Analyst · Data-informed Product Builder
+### Project Manager · Data-informed Product Builder
 
 Bangkok, Thailand · [Portfolio](https://0xtrvkc.github.io/Portfolio/) · [Project archive](https://github.com/0xtrvkc?tab=repositories)
 
-I turn unclear problems into structured, usable deliverables. My background combines policy and planning work at Mahidol University with hands-on delivery of browser-based research tools, dashboards, simulators, and creative projects.
+I turn unclear problems into structured, usable deliverables through hands-on delivery of browser-based research tools, dashboards, simulators, and decision-support products.
 
 I am pursuing project management roles where I can coordinate requirements, organize work, communicate across technical and non-technical contexts, and carry a project from early definition through launch and improvement.
 
@@ -19,14 +19,7 @@ I am pursuing project management roles where I can coordinate requirements, orga
 - Set up lightweight GitHub workflows for repeatable updates, checks, and deployments
 - Communicate findings in plain English and Thai for technical and non-technical audiences
 
-## Professional experience
-
-### Policy & Plan Analyst — Mahidol University
-
-- Support planning, analysis, reporting, and coordination in a university environment
-- Organize information from multiple sources into structured outputs for decision-making
-- Translate policy or operational questions into measurable work and practical next steps
-- Work across administrative, academic, and technical contexts where accuracy and clarity matter
+## Project delivery experience
 
 ### Independent Project & Product Work
 
@@ -34,12 +27,6 @@ I am pursuing project management roles where I can coordinate requirements, orga
 - Manage a growing portfolio spanning market research, financial modelling, analytics, productivity, and education
 - Design for desktop and mobile users, emphasizing transparent assumptions and explainable results
 - Maintain projects after launch through bug fixes, workflow improvements, and new-data compatibility
-
-### Freelance 3D Artist
-
-- Translate creative briefs into visual deliverables and revise work against feedback
-- Balance concept, technical constraints, presentation quality, and deadlines
-- Produce 3D art, loops, motion experiments, and campaign-ready visual assets
 
 ## Selected project delivery
 
@@ -71,8 +58,6 @@ I am pursuing project management roles where I can coordinate requirements, orga
 **Delivery & product:** UX review, responsive design, testing, release iteration, GitHub, GitHub Actions
 
 **Technical:** HTML, CSS, JavaScript, Python, Chart.js, Firebase, REST APIs, data visualization
-
-**Creative:** Blender, 3D art, motion, visual storytelling
 
 **Languages:** Thai (native) · English (working proficiency)
 
