@@ -1,19 +1,34 @@
 #!/usr/bin/env python3
-"""Refresh the repository section of the GitHub profile README."""
+"""Refresh project and delivery-operations sections of the profile README."""
 
 from __future__ import annotations
 
+import base64
 import json
 import os
 import re
+import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime
 
 OWNER = "0xtrvkc"
 README = "README.md"
-START = "<!-- RECENT-REPOS:START -->"
-END = "<!-- RECENT-REPOS:END -->"
+REPOS_START = "<!-- RECENT-REPOS:START -->"
+REPOS_END = "<!-- RECENT-REPOS:END -->"
+OPS_START = "<!-- WORKFLOW-TRACKER:START -->"
+OPS_END = "<!-- WORKFLOW-TRACKER:END -->"
 LIMIT = 12
+
+TRACKED = {
+    "0xtrvkc": "Profile",
+    "btc-grid-sandbox": "BTC Grid Sandbox",
+    "btc-options-sandbox": "BTC Options Sandbox",
+    "btcLoanAnalyzer": "BTC Loan Analyzer",
+    "dynamic-btc-analytics-dashboard": "Dynamic BTC Analytics",
+    "ARE-YOU-READY-": "ARE YOU READY?",
+    "Fade-self-erasing-clipboard": "Fade",
+}
 
 CURATED = {
     "ARE-YOU-READY-": "Adaptive trading-readiness assessment for beginner and quantitative routes",
@@ -41,8 +56,26 @@ def github_get(url: str):
     if token:
         headers["Authorization"] = f"Bearer {token}"
     request = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as error:
+        if error.code in (403, 404):
+            return None
+        raise
+
+
+def replace_block(text: str, start: str, end: str, rows: list[str]) -> str:
+    block = start + "\n" + "\n".join(rows) + "\n" + end
+    updated, count = re.subn(
+        re.escape(start) + r".*?" + re.escape(end),
+        block,
+        text,
+        flags=re.DOTALL,
+    )
+    if count != 1:
+        raise RuntimeError(f"README marker pair missing or duplicated: {start}")
+    return updated
 
 
 def fallback_description(name: str) -> str:
@@ -50,11 +83,58 @@ def fallback_description(name: str) -> str:
     return words[:1].upper() + words[1:] if words else "Project repository"
 
 
+def has_schedule(repo: str, path: str) -> bool:
+    encoded_path = urllib.parse.quote(path, safe="/")
+    data = github_get(f"https://api.github.com/repos/{OWNER}/{repo}/contents/{encoded_path}")
+    if not data or "content" not in data:
+        return False
+    source = base64.b64decode(data["content"]).decode("utf-8", errors="replace")
+    return bool(re.search(r"(?m)^\s*schedule\s*:", source))
+
+
+def workflow_status(repo: str) -> tuple[str, str, str]:
+    data = github_get(f"https://api.github.com/repos/{OWNER}/{repo}/actions/workflows?per_page=100")
+    workflows = data.get("workflows", []) if data else []
+    scheduled = [workflow for workflow in workflows if has_schedule(repo, workflow["path"])]
+
+    if not scheduled:
+        return "None detected", "—", "No schedule"
+
+    names = ", ".join(workflow["name"] for workflow in scheduled)
+    disabled = [workflow for workflow in scheduled if workflow.get("state") != "active"]
+    if disabled:
+        return names, "—", "Attention: disabled"
+
+    latest = None
+    for workflow in scheduled:
+        runs = github_get(
+            f"https://api.github.com/repos/{OWNER}/{repo}/actions/workflows/"
+            f"{workflow['id']}/runs?event=schedule&per_page=1"
+        )
+        items = runs.get("workflow_runs", []) if runs else []
+        if items and (latest is None or items[0]["created_at"] > latest["created_at"]):
+            latest = items[0]
+
+    if not latest:
+        return names, "Not run yet", "Ready"
+
+    date = datetime.fromisoformat(latest["created_at"].replace("Z", "+00:00")).date().isoformat()
+    status = latest.get("status")
+    conclusion = latest.get("conclusion")
+    if status != "completed":
+        health = "Running"
+    elif conclusion == "success":
+        health = "Healthy"
+    else:
+        health = f"Attention: {conclusion or 'unknown'}"
+    return names, date, health
+
+
 def main() -> None:
     repos = github_get(
         f"https://api.github.com/users/{OWNER}/repos"
         "?per_page=100&sort=updated&direction=desc&type=owner"
-    )
+    ) or []
     visible = [
         repo for repo in repos
         if not repo["fork"]
@@ -62,7 +142,7 @@ def main() -> None:
         and repo["name"].lower() != OWNER.lower()
     ][:LIMIT]
 
-    rows = [
+    repo_rows = [
         "| Project | Deliverable | Stack | Last updated |",
         "| --- | --- | --- | --- |",
     ]
@@ -73,18 +153,20 @@ def main() -> None:
         language = repo.get("language") or "—"
         updated = datetime.fromisoformat(repo["updated_at"].replace("Z", "+00:00")).date().isoformat()
         url = repo.get("homepage") or repo["html_url"]
-        rows.append(f"| [{name}]({url}) | {description} | {language} | {updated} |")
+        repo_rows.append(f"| [{name}]({url}) | {description} | {language} | {updated} |")
+
+    ops_rows = [
+        "| Project | Scheduled automation | Latest run | Health |",
+        "| --- | --- | --- | --- |",
+    ]
+    for repo, label in TRACKED.items():
+        workflow, last_run, health = workflow_status(repo)
+        actions_url = f"https://github.com/{OWNER}/{repo}/actions"
+        ops_rows.append(f"| [{label}]({actions_url}) | {workflow} | {last_run} | {health} |")
 
     readme = open(README, encoding="utf-8").read()
-    block = START + "\n" + "\n".join(rows) + "\n" + END
-    updated_readme, count = re.subn(
-        re.escape(START) + r".*?" + re.escape(END),
-        block,
-        readme,
-        flags=re.DOTALL,
-    )
-    if count != 1:
-        raise RuntimeError("README repository markers are missing or duplicated")
+    updated_readme = replace_block(readme, REPOS_START, REPOS_END, repo_rows)
+    updated_readme = replace_block(updated_readme, OPS_START, OPS_END, ops_rows)
 
     if updated_readme != readme:
         with open(README, "w", encoding="utf-8", newline="\n") as handle:
