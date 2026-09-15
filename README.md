@@ -92,35 +92,35 @@ This view refreshes daily from public GitHub repository metadata. It shows maint
 
 ## Delivery operations
 
-I maintain a small set of production projects with visible automation health. This tracker is refreshed with the project list every six hours.
+This table tracks scheduled refreshes for selected projects. Open a project link to inspect its workflows and runs; the status reflects the latest scheduled run.
 
 <!-- WORKFLOW-TRACKER:START -->
-| Project | Scheduled automation | Latest run | Health |
+| Project | Scheduled workflows | Latest run | Status |
 | --- | --- | --- | --- |
-| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | Refresh delivery visual, Update profile projects, Refresh profile projects | Not run yet | Ready |
-| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | Export daily position snapshot | 2026-09-15 | Healthy |
-| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | Auto-Export MVRV Summary, Update Intraday Dashboard Data, Update MVRV Data, Update BTC price | 2026-09-15 | Healthy |
+| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | 2 scheduled workflows | Not run yet | Ready |
+| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | 1 scheduled workflow | 2026-09-15 | Healthy |
+| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | 4 scheduled workflows | 2026-09-15 | Healthy |
 <!-- WORKFLOW-TRACKER:END -->
 
 ## Recently updated projects
 
-This table refreshes automatically every six hours, so new public repositories and recent work appear without manual editing.
+The latest public code pushes, refreshed every six hours. Each project links to its repository or live product.
 
 <!-- RECENT-REPOS:START -->
-| Project | Deliverable | Stack | Last updated |
-| --- | --- | --- | --- |
-| [itd-oi-db](https://github.com/0xtrvkc/itd-oi-db) | Gold intraday open-interest and volatility research database | HTML | 2026-09-15 |
-| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | MVRV, market-cycle, momentum, and drawdown analytics | HTML | 2026-09-15 |
-| [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Grid-strategy backtesting, cash-flow, APR, and risk analysis | HTML | 2026-09-15 |
-| [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Cross-device clipboard with controlled, self-erasing content | JavaScript | 2026-09-15 |
-| [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | BTC-collateral loan, LTV, and repayment scenario modelling | JavaScript | 2026-09-15 |
-| [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Adaptive trading-readiness assessment for beginner and quantitative routes | HTML | 2026-09-15 |
-| [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Dynamic btc dxy analytics dashboard | HTML | 2026-09-15 |
-| [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | BTC Daily Short Call Premium Income Checklist | HTML | 2026-09-15 |
-| [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | BTC dual-EMA crossover research and backtesting | HTML | 2026-09-14 |
-| [btc-options-sandbox](https://github.com/0xtrvkc/btc-options-sandbox) | BTC Friday 0DTE range-risk and options research workspace | HTML | 2026-09-14 |
-| [Portfolio](https://github.com/0xtrvkc/Portfolio) | Portfolio | HTML | 2026-09-11 |
-| [dynamic-btc-analytics-dashboard_mobile](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard_mobile) | Dynamic btc analytics dashboard mobile | HTML | 2026-09-08 |
+| Project | What it helps with | Last code push |
+| --- | --- | --- |
+| [itd-oi-db](https://github.com/0xtrvkc/itd-oi-db) | Explore gold open interest and volatility | 2026-09-15 |
+| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-15 |
+| [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid returns, inventory, and range risk | 2026-09-15 |
+| [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary notes and media | 2026-09-15 |
+| [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-09-15 |
+| [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Adaptive trading assessment with beginner and quant paths | 2026-09-15 |
+| [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-09-15 |
+| [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-09-15 |
+| [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | Test dual-EMA crossover strategies | 2026-09-14 |
+| [btc-options-sandbox](https://github.com/0xtrvkc/btc-options-sandbox) | Study Friday 0DTE range and breach risk | 2026-09-14 |
+| [Portfolio](https://github.com/0xtrvkc/Portfolio) | Browse selected projects | 2026-09-11 |
+| [dynamic-btc-analytics-dashboard_mobile](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard_mobile) | Explore BTC analytics on mobile | 2026-09-08 |
 <!-- RECENT-REPOS:END -->
 
 ---
