@@ -61,6 +61,25 @@ I am pursuing project management roles where I can coordinate requirements, orga
 
 **Languages:** Thai (native) · English (working proficiency)
 
+## Delivery snapshot
+
+A concise portfolio view for quick stakeholder reporting. Metrics are generated from public repository and workflow data.
+
+<!-- DELIVERY-SNAPSHOT:START -->
+![Maintained projects](https://img.shields.io/badge/Maintained_projects-scanning-334155?style=for-the-badge)
+![Recently active](https://img.shields.io/badge/Active_30d-scanning-2563eb?style=for-the-badge)
+![Scheduled automations](https://img.shields.io/badge/Scheduled_automations-scanning-7c3aed?style=for-the-badge)
+![Automation health](https://img.shields.io/badge/Automation_health-scanning-059669?style=for-the-badge)
+
+```mermaid
+pie showData
+    title Technology mix across maintained projects
+    "Scanning portfolio" : 1
+```
+
+<sub>Snapshot pending first automated refresh.</sub>
+<!-- DELIVERY-SNAPSHOT:END -->
+
 ## Delivery operations
 
 I maintain a small set of production projects with visible automation health. This tracker is refreshed with the project list every six hours.
