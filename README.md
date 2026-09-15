@@ -19,7 +19,20 @@ Policy & plan analyst in Bangkok, self-taught developer, quantitative-market res
 This section updates automatically from my public repositories.
 
 <!-- RECENT-REPOS:START -->
-_Profile project list is being initialized. Run the **Update profile projects** workflow once, or wait for its daily refresh._
+| Project | What it is | Main language | Updated |
+| --- | --- | --- | --- |
+| [ARE-YOU-READY-](https://0xtrvkc.github.io/ARE-YOU-READY-/) | Trading-readiness quiz with beginner and quant routes | HTML | Auto |
+| [btc-grid-sandbox](https://0xtrvkc.github.io/btc-grid-sandbox/) | Grid-strategy backtesting and cash-flow research | HTML | Auto |
+| [btc-options-sandbox](https://0xtrvkc.github.io/btc-options-sandbox/) | BTC Friday 0DTE range-risk and options research | HTML | Auto |
+| [grid-bot-post-mortem](https://0xtrvkc.github.io/grid-bot-post-mortem/) | Grid-bot performance and cash-flow review | HTML | Auto |
+| [tradingPortfolioDashboard](https://0xtrvkc.github.io/tradingPortfolioDashboard/) | Trading portfolio analytics dashboard | HTML | Auto |
+| [Fade-self-erasing-clipboard](https://0xtrvkc.github.io/Fade-self-erasing-clipboard/) | Cross-device clipboard with self-erasing content | HTML | Auto |
+| [prop_challenge_simulator](https://0xtrvkc.github.io/prop_challenge_simulator/) | Prop-challenge pass-probability simulator | HTML | Auto |
+| [btcEmaCrossBacktest](https://0xtrvkc.github.io/btcEmaCrossBacktest/) | BTC dual-EMA crossover research and backtesting | HTML | Auto |
+| [btcLoanAnalyzer](https://0xtrvkc.github.io/btcLoanAnalyzer/) | BTC-collateral loan, LTV, and cash-flow modelling | HTML | Auto |
+| [dynamic-btc-analytics-dashboard](https://0xtrvkc.github.io/dynamic-btc-analytics-dashboard/) | MVRV, cycle, momentum, and drawdown analytics | HTML | Auto |
+| [pvd-vs-investment](https://0xtrvkc.github.io/pvd-vs-investment/) | Provident-fund versus investment-growth comparison | HTML | Auto |
+| [itd-oi-db](https://0xtrvkc.github.io/itd-oi-db/) | Gold volatility-to-volatility open-interest database | HTML | Auto |
 <!-- RECENT-REPOS:END -->
 
 ## How I build
