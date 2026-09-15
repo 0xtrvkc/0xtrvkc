@@ -161,6 +161,8 @@ def main() -> None:
     ]
     for repo, label in TRACKED.items():
         workflow, last_run, health = workflow_status(repo)
+        if workflow == "None detected":
+            continue
         actions_url = f"https://github.com/{OWNER}/{repo}/actions"
         ops_rows.append(f"| [{label}]({actions_url}) | {workflow} | {last_run} | {health} |")
 
