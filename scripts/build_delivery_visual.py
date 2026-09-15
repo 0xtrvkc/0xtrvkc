@@ -78,7 +78,7 @@ def main():
         '<text x="40" y="211" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Project mix</text>',
         '<text x="492" y="211" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Last push by week</text>',
     ]
-    palette = {"Analytics": "#2563eb", "Decision tools": "#0d9488", "Learning": "#7c3aed", "Other builds": "#64748b"}
+    palette = {"Analytics": "#2563eb", "Decision tools": "#dc2626", "Learning": "#eab308", "Other builds": "#64748b"}
     for index, label in enumerate(palette):
         y = 237 + index * 43
         width = round(280 * counts[label] / max(1, len(repos)))
