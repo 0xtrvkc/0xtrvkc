@@ -80,7 +80,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 | Learning & assessment | [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Route beginner and advanced learners through an adaptive assessment |
 | Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
-<sub>Updated 2026-09-16 11:36 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
+<sub>Updated 2026-09-16 16:57 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 
@@ -111,10 +111,10 @@ The latest public code pushes, refreshed every six hours. Each project links to 
 | --- | --- | ---
 | [itd-oi-db](https://github.com/0xtrvkc/itd-oi-db) | Explore gold open interest and volatility | 2026-09-16 |
 | [quant-strategy-audit-workflow](https://github.com/0xtrvkc/quant-strategy-audit-workflow) | Quant strategy audit workflow | 2026-09-16 |
+| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-16 |
 | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary notes and media | 2026-09-16 |
 | [grid-bot-post-mortem](https://github.com/0xtrvkc/grid-bot-post-mortem) | Review bot cash flow and open inventory | 2026-09-16 |
 | [pvd-vs-investment](https://github.com/0xtrvkc/pvd-vs-investment) | Compare provident-fund and investment paths | 2026-09-16 |
-| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-16 |
 | [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | Test dual-EMA crossover strategies | 2026-09-16 |
 | [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-09-16 |
 | [Portfolio](https://github.com/0xtrvkc/Portfolio) | Browse selected projects | 2026-09-16 |
