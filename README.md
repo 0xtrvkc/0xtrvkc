@@ -66,8 +66,8 @@ I am pursuing project management roles where I can coordinate requirements, orga
 A concise portfolio view for quick stakeholder reporting. Metrics are generated from public repository and workflow data.
 
 <!-- DELIVERY-SNAPSHOT:START -->
-![Maintained projects](https://img.shields.io/badge/Maintained_projects-23-2563eb?style=for-the-badge)
-![Recently active](https://img.shields.io/badge/Active_30d-16-dc2626?style=for-the-badge)
+![Maintained projects](https://img.shields.io/badge/Maintained_projects-24-2563eb?style=for-the-badge)
+![Recently active](https://img.shields.io/badge/Active_30d-18-dc2626?style=for-the-badge)
 ![Automated projects](https://img.shields.io/badge/Automated_projects-3-eab308?style=for-the-badge)
 ![Automation health](https://img.shields.io/badge/Automation_health-2/3-2563eb?style=for-the-badge)
 
@@ -80,7 +80,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 | Learning & assessment | [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Route beginner and advanced learners through an adaptive assessment |
 | Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
-<sub>Updated 2026-09-16 04:50 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
+<sub>Updated 2026-09-16 11:36 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 
@@ -98,7 +98,7 @@ This table tracks scheduled refreshes for selected projects. Open a project link
 | Project | Scheduled workflows | Latest run | Status |
 | --- | --- | --- | --- |
 | [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | 2 scheduled workflows | 2026-09-16 | Running |
-| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | 1 scheduled workflow | 2026-09-15 | Healthy |
+| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | 1 scheduled workflow | 2026-09-16 | Healthy |
 | [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | 4 scheduled workflows | 2026-09-16 | Healthy |
 <!-- WORKFLOW-TRACKER:END -->
 
@@ -110,17 +110,17 @@ The latest public code pushes, refreshed every six hours. Each project links to 
 | Project | What it helps with | Last code push |
 | --- | --- | ---
 | [itd-oi-db](https://github.com/0xtrvkc/itd-oi-db) | Explore gold open interest and volatility | 2026-09-16 |
-| [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | Test dual-EMA crossover strategies | 2026-09-16 |
+| [quant-strategy-audit-workflow](https://github.com/0xtrvkc/quant-strategy-audit-workflow) | Quant strategy audit workflow | 2026-09-16 |
+| [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary notes and media | 2026-09-16 |
+| [grid-bot-post-mortem](https://github.com/0xtrvkc/grid-bot-post-mortem) | Review bot cash flow and open inventory | 2026-09-16 |
+| [pvd-vs-investment](https://github.com/0xtrvkc/pvd-vs-investment) | Compare provident-fund and investment paths | 2026-09-16 |
 | [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-16 |
+| [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | Test dual-EMA crossover strategies | 2026-09-16 |
+| [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-09-16 |
 | [Portfolio](https://github.com/0xtrvkc/Portfolio) | Browse selected projects | 2026-09-16 |
 | [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-09-16 |
 | [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-09-16 |
 | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid returns, inventory, and range risk | 2026-09-15 |
-| [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary notes and media | 2026-09-15 |
-| [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-09-15 |
-| [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Adaptive trading assessment with beginner and quant paths | 2026-09-15 |
-| [btc-options-sandbox](https://github.com/0xtrvkc/btc-options-sandbox) | Study Friday 0DTE range and breach risk | 2026-09-14 |
-| [dynamic-btc-analytics-dashboard_mobile](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard_mobile) | Explore BTC analytics on mobile | 2026-09-08 |
 <!-- RECENT-REPOS:END -->
 
 ---
