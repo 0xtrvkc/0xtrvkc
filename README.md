@@ -10,34 +10,13 @@ I use AI as an implementation partner. My contribution is defining the problem, 
 
 I am interested in data analyst and project-oriented roles where I can investigate questions, communicate findings, coordinate requirements, and carry useful work from early definition through launch and improvement.
 
-## From data to decisions
-
-```mermaid
-flowchart LR
-    A[Unclear question] --> B[Define metrics]
-    B --> C[Structure and check data]
-    C --> D[Compare scenarios]
-    D --> E[Visualize findings]
-    E --> F[Support a decision]
-```
-
-My analysis work focuses on making assumptions, calculations, limitations, and next actions visible—not simply producing a chart.
-
-| Analytical area | How I apply it |
-| --- | --- |
-| Data preparation | Organize inputs, identify missing context, standardize definitions, and check whether data is suitable for the question |
-| Exploratory analysis | Compare periods, scenarios, distributions, drawdowns, ranges, and outliers to find useful patterns |
-| KPI and scenario design | Choose metrics that connect product behavior or financial outcomes to a real decision |
-| Visualization | Build dashboards and charts that emphasize comparison, risk, change, and interpretation |
-| Validation | Review formulas, assumptions, boundary cases, data freshness, and whether conclusions match the evidence |
-| Communication | Translate technical results into plain-language findings for different audiences |
-
 ## What I can deliver
 
 - Convert stakeholder needs and loosely defined ideas into scope, priorities, milestones, and acceptance criteria
 - Break complex work into manageable releases while protecting the core user outcome
 - Coordinate research, data, design, implementation, testing, documentation, and release activities
 - Build clear dashboards and decision tools that make technical or financial information easier to act on
+- Prepare and explore data, define useful KPIs, compare scenarios, and communicate findings visually
 - Review calculations, edge cases, data assumptions, mobile behavior, and user flows before delivery
 - Improve products iteratively from observed problems and user feedback
 - Set up lightweight GitHub workflows for repeatable updates, checks, and deployments
@@ -76,20 +55,6 @@ My analysis work focuses on making assumptions, calculations, limitations, and n
 | Stakeholder communication | Present complex material with clear language, structured reports, and beginner/advanced views |
 | Continuous improvement | Revisit shipped products, diagnose friction, and deliver focused iterations |
 | Automation | Use GitHub Actions and data-refresh workflows to reduce repetitive maintenance |
-
-## How I work with AI
-
-```mermaid
-flowchart TD
-    A[Define the problem] --> B[Specify data, rules, and acceptance criteria]
-    B --> C[Direct AI-assisted implementation]
-    C --> D[Test calculations, edge cases, and UX]
-    D --> E{Useful and explainable?}
-    E -- No --> B
-    E -- Yes --> F[Document and release]
-```
-
-AI accelerates implementation; it does not replace accountability. I remain responsible for the requirements, domain assumptions, analytical interpretation, testing, and final product decisions.
 
 ## Tools and working knowledge
 
