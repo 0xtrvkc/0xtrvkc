@@ -1,128 +1,76 @@
 # Sirapob Dangpad
 
-### Project Management Candidate · Product & Analytics Builder
+### Data Analyst · AI-Assisted Product Builder · Aspiring Project Manager
 
-Bangkok, Thailand · [cryptotrvkc@gmail.com](mailto:cryptotrvkc@gmail.com) · [Portfolio](https://0xtrvkc.github.io/Portfolio/) · [Project archive](https://github.com/0xtrvkc?tab=repositories)
+Bangkok, Thailand · [cryptotrvkc@gmail.com](mailto:cryptotrvkc@gmail.com)
 
-I turn unclear problems into structured, usable deliverables through hands-on delivery of browser-based research tools, dashboards, simulators, and decision-support products.
+I turn messy questions into understandable data, practical decisions, and working tools.
 
-I am pursuing project management roles where I can coordinate requirements, organize work, communicate across technical and non-technical contexts, and carry a project from early definition through launch and improvement.
-
-## What I can deliver
-
-- Convert stakeholder needs and loosely defined ideas into scope, priorities, milestones, and acceptance criteria
-- Break complex work into manageable releases while protecting the core user outcome
-- Coordinate research, data, design, implementation, testing, documentation, and release activities
-- Build clear dashboards and decision tools that make technical or financial information easier to act on
-- Review calculations, edge cases, data assumptions, mobile behavior, and user flows before delivery
-- Improve products iteratively from observed problems and user feedback
-- Set up lightweight GitHub workflows for repeatable updates, checks, and deployments
-- Communicate findings in plain English and Thai for technical and non-technical audiences
-
-## Project delivery experience
-
-### Independent Project & Product Work
-
-- Scope and deliver web-based tools from problem definition through testing, documentation, and release
-- Manage a growing portfolio spanning market research, financial modelling, analytics, productivity, and education
-- Design for desktop and mobile users, emphasizing transparent assumptions and explainable results
-- Maintain projects after launch through bug fixes, workflow improvements, and new-data compatibility
-
-## Selected project delivery
-
-| Project | Problem addressed | What I delivered |
-| --- | --- | --- |
-| [BTC Grid Sandbox](https://0xtrvkc.github.io/btc-grid-sandbox/) | Grid returns can look profitable while inventory is underwater | A backtesting workspace focused on realized cash flow, open inventory, APR/APY, range behavior, and linked strategy inputs |
-| [BTC Options Sandbox](https://0xtrvkc.github.io/btc-options-sandbox/) | Historical spot data does not directly explain Friday 0DTE range risk | A research product with configurable tests, breach analysis, historical cases, reporting modes, and documentation |
-| [BTC Loan Analyzer](https://0xtrvkc.github.io/btcLoanAnalyzer/) | Collateral loans involve interacting price, LTV, repayment, and opportunity-cost decisions | A scenario modeller that makes trade-offs and outcomes visible |
-| [Dynamic BTC Analytics](https://0xtrvkc.github.io/dynamic-btc-analytics-dashboard/) | Cycle and on-chain indicators are difficult to interpret together | A responsive dashboard combining MVRV, momentum, drawdown, crossover, and cycle views |
-| [ARE YOU READY?](https://0xtrvkc.github.io/ARE-YOU-READY-/) | Trading knowledge differs sharply between beginners and advanced users | An adaptive assessment with learning routes, scoring, bilingual support, and answer-state management |
-| [Fade](https://0xtrvkc.github.io/Fade-self-erasing-clipboard/) | Temporary notes and media become cluttered or persist too long | A manageable self-erasing clipboard with grouping, drag-and-drop, media handling, and responsive interaction |
-
-## Project management strengths
-
-| Area | Evidence from my work |
-| --- | --- |
-| Discovery & scope | Turn ambiguous ideas into explicit goals, constraints, inputs, outputs, and success conditions |
-| Planning & prioritization | Separate essential releases from later enhancements and preserve requested constraints |
-| Delivery ownership | Work across research, UX, implementation, validation, documentation, and release |
-| Risk & quality | Check formulas, edge cases, data freshness, future-data behavior, and user-facing explanations |
-| Stakeholder communication | Present complex material with clear language, structured reports, and beginner/advanced views |
-| Continuous improvement | Revisit shipped products, diagnose friction, and deliver focused iterations |
-| Automation | Use GitHub Actions and data-refresh workflows to reduce repetitive maintenance |
-
-## Tools and working knowledge
-
-**Planning & analysis:** requirements definition, workflow mapping, research synthesis, KPI thinking, scenario analysis, documentation, Google Sheets
-
-**Delivery & product:** UX review, responsive design, testing, release iteration, GitHub, GitHub Actions
-
-**Technical:** HTML, CSS, JavaScript, Python, Chart.js, Firebase, REST APIs, data visualization
-
-**Languages:** Thai (native) · English (working proficiency)
-
-## Delivery snapshot
-
-A concise portfolio view for quick stakeholder reporting. Metrics are generated from public repository and workflow data.
-
-<!-- DELIVERY-SNAPSHOT:START -->
-![Maintained projects](https://img.shields.io/badge/Maintained_projects-24-2563eb?style=for-the-badge)
-![Recently active](https://img.shields.io/badge/Active_30d-18-dc2626?style=for-the-badge)
-![Automated projects](https://img.shields.io/badge/Automated_projects-3-eab308?style=for-the-badge)
-![Automation health](https://img.shields.io/badge/Automation_health-2/3-2563eb?style=for-the-badge)
-
-### Work in practice
-
-| Work area | Example | What the product helps someone do |
-| --- | --- | --- |
-| Analytics & reporting | [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Combine cycle, momentum and drawdown views for interpretation |
-| Scenario & risk tools | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid cash flow, open inventory and range risk |
-| Learning & assessment | [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Route beginner and advanced learners through an adaptive assessment |
-| Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
-
-<sub>Updated 2026-09-21 04:57 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
-<!-- DELIVERY-SNAPSHOT:END -->
-
-
-### Stakeholder visual
-
-![Public project delivery brief](assets/delivery-brief.svg)
-
-This view refreshes daily from public GitHub repository metadata. It shows maintained repositories, projects pushed in the past 30 days, project mix, and the week of each repository's latest push. The source and UTC refresh time appear on the visual. A push indicates code activity, not a completed milestone; categories are inferred from repository names and descriptions.
-
-## Delivery operations
-
-This table tracks scheduled refreshes for selected projects. Open a project link to inspect its workflows and runs; the status reflects the latest scheduled run.
-
-<!-- WORKFLOW-TRACKER:START -->
-| Project | Scheduled workflows | Latest run | Status |
-| --- | --- | --- | --- |
-| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | 2 scheduled workflows | 2026-09-21 | Running |
-| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | 1 scheduled workflow | 2026-09-20 | Healthy |
-| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | 4 scheduled workflows | 2026-09-21 | Healthy |
-<!-- WORKFLOW-TRACKER:END -->
-
-## Recently updated projects
-
-The latest public code pushes, refreshed every six hours. Each project links to its repository or live product.
-
-<!-- RECENT-REPOS:START -->
-| Project | What it helps with | Last code push |
-| --- | --- | ---
-| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-21 |
-| [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-09-21 |
-| [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-09-21 |
-| [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary notes and media | 2026-09-20 |
-| [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-09-19 |
-| [prop_challenge_simulator](https://github.com/0xtrvkc/prop_challenge_simulator) | Simulate prop-challenge risk and outcomes | 2026-09-18 |
-| [quant-strategy-audit-workflow](https://github.com/0xtrvkc/quant-strategy-audit-workflow) | Quant strategy audit workflow | 2026-09-18 |
-| [itd-oi-db](https://github.com/0xtrvkc/itd-oi-db) | Explore gold open interest and volatility | 2026-09-17 |
-| [grid-bot-post-mortem](https://github.com/0xtrvkc/grid-bot-post-mortem) | Review bot cash flow and open inventory | 2026-09-16 |
-| [pvd-vs-investment](https://github.com/0xtrvkc/pvd-vs-investment) | Compare provident-fund and investment paths | 2026-09-16 |
-| [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | Test dual-EMA crossover strategies | 2026-09-16 |
-| [Portfolio](https://github.com/0xtrvkc/Portfolio) | Browse selected projects | 2026-09-16 |
-<!-- RECENT-REPOS:END -->
+My projects are created through **AI-assisted development**. I provide the problem definition, domain logic, analytical approach, feature requirements, testing, and UX decisions; AI helps me implement and iterate. I do not position myself as a traditional software engineer.
 
 ---
 
-I build in public. Financial projects are research and educational tools, not investment advice.
+## How I create value
+
+```mermaid
+flowchart LR
+    A[Messy question] --> B[Structure the data]
+    B --> C[Analyze scenarios]
+    C --> D[Visualize findings]
+    D --> E[Support a decision]
+    E --> F[Build and refine a tool]
+```
+
+| Area | What I contribute |
+|---|---|
+| Data analysis | Clean, structure, compare, and interpret data to answer practical questions |
+| Visualization | Turn calculations and research into charts, dashboards, and decision-friendly summaries |
+| Product thinking | Define the user problem, scope features, prioritize information, and simplify workflows |
+| AI-assisted building | Direct AI implementation, inspect outputs, test edge cases, and iterate until the tool is useful |
+| Project coordination | Break work into deliverables, document decisions, track changes, and communicate trade-offs |
+
+## Analysis approach
+
+![A visual showing Sirapob's data-to-decision workflow](assets/data-to-decision.svg)
+
+I prefer analysis that makes its assumptions visible. A useful result should show where the data came from, what was calculated, what can go wrong, and what decision the result supports.
+
+## Selected projects
+
+| Project | Problem explored | My contribution |
+|---|---|---|
+| [Dynamic BTC Analytics Dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Make cycle, valuation, momentum, and drawdown data easier to interpret | Analytical framework, dashboard structure, chart requirements, UX testing, and iterative validation |
+| [BTC Options Sandbox](https://github.com/0xtrvkc/btc-options-sandbox) | Study historical BTC price ranges for Friday 0DTE research | Research rules, range logic, statistical requirements, interpretation, and risk-focused UX |
+| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-collateral loan outcomes across prices and repayment choices | Scenario definitions, financial logic, decision metrics, visualization direction, and testing |
+| [BTC Grid Sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Evaluate grid behavior, cash flow, and sensitivity to range settings | Model requirements, performance metrics, default scenarios, and usability decisions |
+| [Fade: Self-Erasing Clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Make temporary pasted content easier to organize and share | Product concept, interaction design, mobile requirements, testing, and feature iteration |
+
+These repositories are best read as **working analytical products and experiments**, not claims that every line was written manually by me.
+
+## Tools I work with
+
+`Excel` · `Google Sheets` · `Data visualization` · `Dashboard design` · `Scenario modelling` · `Chart.js` · `HTML/CSS/JavaScript` · `GitHub Actions` · `AI-assisted development`
+
+My coding knowledge is practical and growing. I am strongest at connecting the user problem, data, logic, presentation, and final decision.
+
+## How I work with AI
+
+```mermaid
+flowchart TD
+    A[Define the real problem] --> B[Write rules and acceptance criteria]
+    B --> C[Direct AI implementation]
+    C --> D[Test calculations and edge cases]
+    D --> E{Useful and understandable?}
+    E -- No --> B
+    E -- Yes --> F[Document and ship]
+```
+
+AI accelerates implementation; it does not replace responsibility. I remain responsible for the requirements, assumptions, tests, interpretation, and final product decisions.
+
+## What I am looking for
+
+I am interested in opportunities where data analysis, product thinking, and project coordination overlap—especially roles where I can turn unclear requirements into structured work and communicate findings clearly to technical and non-technical teams.
+
+---
+
+<sub>Built through continuous learning, domain research, and transparent AI-assisted development.</sub>
