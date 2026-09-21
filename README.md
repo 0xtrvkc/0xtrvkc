@@ -10,6 +10,12 @@ I use AI as an implementation partner. My contribution is defining the problem, 
 
 I am interested in data analyst and project-oriented roles where I can investigate questions, communicate findings, coordinate requirements, and carry useful work from early definition through launch and improvement.
 
+## How I turn data into decisions
+
+![A lightweight workflow showing question, data, analysis, visual, and decision stages](assets/data-to-decision.svg)
+
+<sub>A static local SVG with no scripts, external requests, or client-side chart rendering.</sub>
+
 ## What I can deliver
 
 - Convert stakeholder needs and loosely defined ideas into scope, priorities, milestones, and acceptance criteria
