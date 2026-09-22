@@ -91,7 +91,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 | Learning & assessment | [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Route beginner and advanced learners through an adaptive assessment |
 | Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
-<sub>Updated 2026-09-22 11:40 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
+<sub>Updated 2026-09-22 16:58 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 
@@ -120,8 +120,8 @@ The latest public code pushes, refreshed every six hours. Each project links to 
 <!-- RECENT-REPOS:START -->
 | Project | What it helps with | Last code push |
 | --- | --- | ---
-| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-22 |
 | [prop_challenge_simulator](https://github.com/0xtrvkc/prop_challenge_simulator) | Simulate prop-challenge risk and outcomes | 2026-09-22 |
+| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-22 |
 | [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | Test dual-EMA crossover strategies | 2026-09-22 |
 | [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-09-22 |
 | [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-09-22 |
