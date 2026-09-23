@@ -3,56 +3,56 @@
 <desc id="desc">Repository counts by category, weekly last-push activity, and five recently pushed projects. Counts reflect public non-fork, non-archived repositories, not project completion or team delivery.</desc>
 <rect width="960" height="510" fill="#f8fafc"/><rect x="16" y="16" width="928" height="478" rx="16" fill="white" stroke="#cbd5e1"/>
 <text x="40" y="58" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#0f172a">Public project delivery brief</text>
-<text x="40" y="84" font-family="Arial,sans-serif" font-size="13" fill="#475569">Source: GitHub public repository metadata · Refreshed 2026-09-22 08:38 UTC</text>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#0f172a">24</text>
+<text x="40" y="84" font-family="Arial,sans-serif" font-size="13" fill="#475569">Source: GitHub public repository metadata · Refreshed 2026-09-23 08:40 UTC</text>
+<text x="40" y="135" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#0f172a">25</text>
 <text x="40" y="157" font-family="Arial,sans-serif" font-size="12" fill="#475569">maintained public repos</text>
-<text x="266" y="135" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#2563eb">18</text>
+<text x="266" y="135" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#2563eb">19</text>
 <text x="266" y="157" font-family="Arial,sans-serif" font-size="12" fill="#475569">pushed in past 30 days</text>
 <path d="M40 177H920" stroke="#e2e8f0"/>
 <text x="40" y="211" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Project mix</text>
 <text x="492" y="211" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Last push by week</text>
 <text x="40" y="237" font-family="Arial,sans-serif" font-size="13" fill="#334155">Analytics</text>
 <rect x="170" y="224" width="280" height="16" rx="4" fill="#e2e8f0"/>
-<rect x="170" y="224" width="70" height="16" rx="4" fill="#2563eb"/>
+<rect x="170" y="224" width="67" height="16" rx="4" fill="#2563eb"/>
 <text x="460" y="237" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">6</text>
 <text x="40" y="280" font-family="Arial,sans-serif" font-size="13" fill="#334155">Decision tools</text>
 <rect x="170" y="267" width="280" height="16" rx="4" fill="#e2e8f0"/>
-<rect x="170" y="267" width="58" height="16" rx="4" fill="#dc2626"/>
+<rect x="170" y="267" width="56" height="16" rx="4" fill="#dc2626"/>
 <text x="460" y="280" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">5</text>
 <text x="40" y="323" font-family="Arial,sans-serif" font-size="13" fill="#334155">Learning</text>
 <rect x="170" y="310" width="280" height="16" rx="4" fill="#e2e8f0"/>
-<rect x="170" y="310" width="12" height="16" rx="4" fill="#eab308"/>
+<rect x="170" y="310" width="11" height="16" rx="4" fill="#eab308"/>
 <text x="460" y="323" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">1</text>
 <text x="40" y="366" font-family="Arial,sans-serif" font-size="13" fill="#334155">Other builds</text>
 <rect x="170" y="353" width="280" height="16" rx="4" fill="#e2e8f0"/>
-<rect x="170" y="353" width="140" height="16" rx="4" fill="#64748b"/>
-<text x="460" y="366" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">12</text>
-<rect x="500" y="346" width="32" height="0" rx="3" fill="#2563eb"/>
-<text x="516" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">0</text>
-<text x="516" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">28 Jul</text>
-<rect x="552" y="337" width="32" height="9" rx="3" fill="#2563eb"/>
-<text x="568" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
-<text x="568" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">04 Aug</text>
-<rect x="604" y="337" width="32" height="9" rx="3" fill="#2563eb"/>
-<text x="620" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
-<text x="620" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">11 Aug</text>
+<rect x="170" y="353" width="146" height="16" rx="4" fill="#64748b"/>
+<text x="460" y="366" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#334155">13</text>
+<rect x="500" y="336" width="32" height="10" rx="3" fill="#2563eb"/>
+<text x="516" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
+<text x="516" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">29 Jul</text>
+<rect x="552" y="346" width="32" height="0" rx="3" fill="#2563eb"/>
+<text x="568" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">0</text>
+<text x="568" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">05 Aug</text>
+<rect x="604" y="336" width="32" height="10" rx="3" fill="#2563eb"/>
+<text x="620" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">1</text>
+<text x="620" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">12 Aug</text>
 <rect x="656" y="346" width="32" height="0" rx="3" fill="#2563eb"/>
 <text x="672" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">0</text>
-<text x="672" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">18 Aug</text>
+<text x="672" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">19 Aug</text>
 <rect x="708" y="346" width="32" height="0" rx="3" fill="#2563eb"/>
 <text x="724" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">0</text>
-<text x="724" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">25 Aug</text>
-<rect x="760" y="319" width="32" height="27" rx="3" fill="#2563eb"/>
-<text x="776" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">3</text>
-<text x="776" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">01 Sep</text>
-<rect x="812" y="319" width="32" height="27" rx="3" fill="#2563eb"/>
-<text x="828" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">3</text>
-<text x="828" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">08 Sep</text>
+<text x="724" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">26 Aug</text>
+<rect x="760" y="317" width="32" height="29" rx="3" fill="#2563eb"/>
+<text x="776" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">3</text>
+<text x="776" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">02 Sep</text>
+<rect x="812" y="297" width="32" height="49" rx="3" fill="#2563eb"/>
+<text x="828" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">5</text>
+<text x="828" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">09 Sep</text>
 <rect x="864" y="238" width="32" height="108" rx="3" fill="#2563eb"/>
-<text x="880" y="229" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">12</text>
-<text x="880" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">15 Sep</text>
+<text x="880" y="229" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#334155">11</text>
+<text x="880" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#64748b">16 Sep</text>
 <path d="M40 394H920" stroke="#e2e8f0"/>
 <text x="40" y="422" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#0f172a">Recently pushed</text>
-<text x="40" y="445" font-family="Arial,sans-serif" font-size="12" fill="#334155">prop_challenge_simulator, btcEmaCrossBacktest, btcLoanAnalyzer, dynamic-btc-analytics-dashboard, dyna...</text>
+<text x="40" y="445" font-family="Arial,sans-serif" font-size="12" fill="#334155">Cony, btcLoanAnalyzer, dynamic-btc-analytics-dashboard, dynamic-btc-dxy-analytics-dashboard, BTC-Dail...</text>
 <text x="40" y="475" font-family="Arial,sans-serif" font-size="11" fill="#64748b">A push is a code update, not a completed milestone. Categories are inferred from repository names and descriptions.</text>
 </svg>
