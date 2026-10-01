@@ -77,8 +77,8 @@ I am interested in data analyst and project-oriented roles where I can investiga
 A concise portfolio view for quick stakeholder reporting. Metrics are generated from public repository and workflow data.
 
 <!-- DELIVERY-SNAPSHOT:START -->
-![Maintained projects](https://img.shields.io/badge/Maintained_projects-24-2563eb?style=for-the-badge)
-![Recently active](https://img.shields.io/badge/Active_30d-19-dc2626?style=for-the-badge)
+![Maintained projects](https://img.shields.io/badge/Maintained_projects-25-2563eb?style=for-the-badge)
+![Recently active](https://img.shields.io/badge/Active_30d-20-dc2626?style=for-the-badge)
 ![Automated projects](https://img.shields.io/badge/Automated_projects-3-eab308?style=for-the-badge)
 ![Automation health](https://img.shields.io/badge/Automation_health-1/3-2563eb?style=for-the-badge)
 
@@ -91,7 +91,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 | Learning & assessment | [ARE-YOU-READY-](https://github.com/0xtrvkc/ARE-YOU-READY-) | Route beginner and advanced learners through an adaptive assessment |
 | Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
-<sub>Updated 2026-09-30 22:17 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
+<sub>Updated 2026-10-01 05:56 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 
@@ -108,9 +108,9 @@ This table tracks scheduled refreshes for selected projects. Open a project link
 <!-- WORKFLOW-TRACKER:START -->
 | Project | Scheduled workflows | Latest run | Status |
 | --- | --- | --- | --- |
-| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | 2 scheduled workflows | 2026-09-30 | Running |
+| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | 2 scheduled workflows | 2026-10-01 | Running |
 | [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | 1 scheduled workflow | 2026-09-30 | Attention: failure |
-| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | 4 scheduled workflows | 2026-09-30 | Healthy |
+| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | 4 scheduled workflows | 2026-10-01 | Healthy |
 <!-- WORKFLOW-TRACKER:END -->
 
 ## Recently updated projects
@@ -120,18 +120,18 @@ The latest public code pushes, refreshed every six hours. Each project links to 
 <!-- RECENT-REPOS:START -->
 | Project | What it helps with | Last code push |
 | --- | --- | ---
-| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-09-30 |
+| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-10-01 |
+| [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-10-01 |
+| [watchDog](https://github.com/0xtrvkc/watchDog) | WatchDog | 2026-10-01 |
+| [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-10-01 |
+| [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-10-01 |
 | [prop_challenge_simulator](https://github.com/0xtrvkc/prop_challenge_simulator) | Simulate prop-challenge risk and outcomes | 2026-09-30 |
-| [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-09-30 |
-| [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-09-30 |
 | [Portfolio](https://github.com/0xtrvkc/Portfolio) | Browse selected projects | 2026-09-29 |
 | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary notes and media | 2026-09-29 |
-| [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-09-29 |
 | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid returns, inventory, and range risk | 2026-09-27 |
 | [Cony](https://github.com/0xtrvkc/Cony) | Cony | 2026-09-23 |
 | [btcEmaCrossBacktest](https://github.com/0xtrvkc/btcEmaCrossBacktest) | Test dual-EMA crossover strategies | 2026-09-22 |
 | [quant-strategy-audit-workflow](https://github.com/0xtrvkc/quant-strategy-audit-workflow) | Quant strategy audit workflow | 2026-09-18 |
-| [itd-oi-db](https://github.com/0xtrvkc/itd-oi-db) | Explore gold open interest and volatility | 2026-09-17 |
 <!-- RECENT-REPOS:END -->
 
 ---
