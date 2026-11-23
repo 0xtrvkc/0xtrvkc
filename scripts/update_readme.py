@@ -49,6 +49,9 @@ CURATED = {
     "BTC-Daily-Short-Call-Premium-Income-Checklist": "Review a daily BTC short-call checklist",
     "Portfolio": "Browse selected projects",
     "dynamic-btc-analytics-dashboard_mobile": "Explore BTC analytics on mobile",
+    "btc-monitoring-dashboard": "Track BTC halving-cycle position with 17 backtested indicators",
+    "Jarn-Neow": "Check forex strategy edge, risk of ruin, and safe position size",
+    "mho-builds": "Plan Monster Hunter Outlanders armor builds by priority skills",
 }
 
 
@@ -112,11 +115,14 @@ def workflow_status(repo: str) -> tuple[str, str, str]:
     if disabled:
         return names, "—", "Attention: disabled"
 
+    # The profile refresh runs inside one of its own scheduled workflows, so its
+    # newest run is always in progress. Read only completed runs for this repo.
+    status_filter = "&status=completed" if repo == OWNER else ""
     latest = None
     for workflow in scheduled:
         runs = github_get(
             f"https://api.github.com/repos/{OWNER}/{repo}/actions/workflows/"
-            f"{workflow['id']}/runs?event=schedule&per_page=1"
+            f"{workflow['id']}/runs?event=schedule&per_page=1{status_filter}"
         )
         items = runs.get("workflow_runs", []) if runs else []
         if items and (latest is None or items[0]["created_at"] > latest["created_at"]):
@@ -183,7 +189,7 @@ def main() -> None:
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=30)
     recently_active = sum(
-        datetime.fromisoformat(repo["updated_at"].replace("Z", "+00:00")) >= cutoff
+        datetime.fromisoformat((repo.get("pushed_at") or repo["updated_at"]).replace("Z", "+00:00")) >= cutoff
         for repo in maintained
     )
     maintained_names = {repo["name"] for repo in maintained}
