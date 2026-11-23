@@ -47,7 +47,6 @@ I am interested in data analyst and project-oriented roles where I can investiga
 | [BTC Options Sandbox](https://0xtrvkc.github.io/btc-options-sandbox/) | Historical spot data does not directly explain Friday 0DTE range risk | A research product with configurable tests, breach analysis, historical cases, reporting modes, and documentation |
 | [BTC Loan Analyzer](https://0xtrvkc.github.io/btcLoanAnalyzer/) | Collateral loans involve interacting price, LTV, repayment, and opportunity-cost decisions | A scenario modeller that makes trade-offs and outcomes visible |
 | [Dynamic BTC Analytics](https://0xtrvkc.github.io/dynamic-btc-analytics-dashboard/) | Cycle and on-chain indicators are difficult to interpret together | A responsive dashboard combining MVRV, momentum, drawdown, crossover, and cycle views |
-| [ARE YOU READY?](https://0xtrvkc.github.io/ARE-YOU-READY-/) | Trading knowledge differs sharply between beginners and advanced users | An adaptive assessment with learning routes, scoring, bilingual support, and answer-state management |
 | [Fade](https://0xtrvkc.github.io/Fade-self-erasing-clipboard/) | Temporary notes and media become cluttered or persist too long | A manageable self-erasing clipboard with grouping, drag-and-drop, media handling, and responsive interaction |
 
 ## Project management strengths

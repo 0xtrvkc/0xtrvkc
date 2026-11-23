@@ -28,12 +28,10 @@ TRACKED = {
     "btc-options-sandbox": "BTC Options Sandbox",
     "btcLoanAnalyzer": "BTC Loan Analyzer",
     "dynamic-btc-analytics-dashboard": "Dynamic BTC Analytics",
-    "ARE-YOU-READY-": "ARE YOU READY?",
     "Fade-self-erasing-clipboard": "Fade",
 }
 
 CURATED = {
-    "ARE-YOU-READY-": "Adaptive trading assessment with beginner and quant paths",
     "btc-grid-sandbox": "Compare grid returns, inventory, and range risk",
     "btc-options-sandbox": "Study Friday 0DTE range and breach risk",
     "grid-bot-post-mortem": "Review bot cash flow and open inventory",
@@ -198,8 +196,6 @@ def main() -> None:
          "Combine cycle, momentum and drawdown views for interpretation"),
         ("Scenario & risk tools", "btc-grid-sandbox",
          "Compare grid cash flow, open inventory and range risk"),
-        ("Learning & assessment", "ARE-YOU-READY-",
-         "Route beginner and advanced learners through an adaptive assessment"),
         ("Productivity & workflows", "Fade-self-erasing-clipboard",
          "Organize temporary content and control when it expires"),
     ]
