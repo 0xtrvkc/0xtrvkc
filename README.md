@@ -77,7 +77,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 
 <!-- DELIVERY-SNAPSHOT:START -->
 ![Maintained projects](https://img.shields.io/badge/Maintained_projects-26-2563eb?style=for-the-badge)
-![Recently active](https://img.shields.io/badge/Active_30d-11-dc2626?style=for-the-badge)
+![Recently active](https://img.shields.io/badge/Active_30d-10-dc2626?style=for-the-badge)
 ![Automated projects](https://img.shields.io/badge/Automated_projects-3-eab308?style=for-the-badge)
 ![Automation health](https://img.shields.io/badge/Automation_health-3/3-2563eb?style=for-the-badge)
 
@@ -89,7 +89,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 | Scenario & risk tools | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid cash flow, open inventory and range risk |
 | Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
-<sub>Updated 2026-11-24 22:27 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
+<sub>Updated 2026-11-25 08:36 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 
@@ -118,15 +118,15 @@ The latest public code pushes, refreshed every six hours. Each project links to 
 <!-- RECENT-REPOS:START -->
 | Project | What it helps with | Last code push |
 | --- | --- | ---
+| [btc-monitoring-dashboard](https://github.com/0xtrvkc/btc-monitoring-dashboard) | Track BTC halving-cycle position with 17 backtested indicators | 2026-11-25 |
+| [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-11-25 |
+| [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-11-25 |
+| [Jarn-Neow](https://jarn-neow.vercel.app) | Check forex strategy edge, risk of ruin, and safe position size | 2026-11-25 |
 | [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-11-24 |
 | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid returns, inventory, and range risk | 2026-11-24 |
 | [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-11-24 |
-| [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-11-24 |
 | [btc-options-sandbox](https://github.com/0xtrvkc/btc-options-sandbox) | Study Friday 0DTE range and breach risk | 2026-11-24 |
-| [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-11-24 |
-| [btc-monitoring-dashboard](https://github.com/0xtrvkc/btc-monitoring-dashboard) | Track BTC halving-cycle position with 17 backtested indicators | 2026-11-24 |
 | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary notes and media | 2026-11-23 |
-| [Jarn-Neow](https://jarn-neow.vercel.app) | Check forex strategy edge, risk of ruin, and safe position size | 2026-11-23 |
 | [mho-builds](https://github.com/0xtrvkc/mho-builds) | Plan Monster Hunter Outlanders armor builds by priority skills | 2026-11-10 |
 | [prop_challenge_simulator](https://github.com/0xtrvkc/prop_challenge_simulator) | Simulate prop-challenge risk and outcomes | 2026-10-26 |
 | [watchDog](https://github.com/0xtrvkc/watchDog) | WatchDog | 2026-10-04 |
