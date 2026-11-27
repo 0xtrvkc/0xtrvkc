@@ -89,7 +89,7 @@ A concise portfolio view for quick stakeholder reporting. Metrics are generated 
 | Scenario & risk tools | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid cash flow, open inventory and range risk |
 | Productivity & workflows | [Fade-self-erasing-clipboard](https://github.com/0xtrvkc/Fade-self-erasing-clipboard) | Organize temporary content and control when it expires |
 
-<sub>Updated 2026-11-27 08:36 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
+<sub>Updated 2026-11-27 21:18 UTC · Automation health means healthy or ready scheduled workflows among tracked production projects.</sub>
 <!-- DELIVERY-SNAPSHOT:END -->
 
 
@@ -106,9 +106,9 @@ This table tracks scheduled refreshes for selected projects. Open a project link
 <!-- WORKFLOW-TRACKER:START -->
 | Project | Scheduled workflows | Latest run | Status |
 | --- | --- | --- | --- |
-| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | 2 scheduled workflows | 2026-11-26 | Healthy |
-| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | 1 scheduled workflow | 2026-11-26 | Healthy |
-| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | 3 scheduled workflows | 2026-11-26 | Healthy |
+| [Profile](https://github.com/0xtrvkc/0xtrvkc/actions) | 2 scheduled workflows | 2026-11-27 | Healthy |
+| [BTC Loan Analyzer](https://github.com/0xtrvkc/btcLoanAnalyzer/actions) | 1 scheduled workflow | 2026-11-27 | Healthy |
+| [Dynamic BTC Analytics](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard/actions) | 3 scheduled workflows | 2026-11-27 | Healthy |
 <!-- WORKFLOW-TRACKER:END -->
 
 ## Recently updated projects
@@ -118,10 +118,10 @@ The latest public code pushes, refreshed every six hours. Each project links to 
 <!-- RECENT-REPOS:START -->
 | Project | What it helps with | Last code push |
 | --- | --- | ---
+| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-11-27 |
 | [btc-monitoring-dashboard](https://github.com/0xtrvkc/btc-monitoring-dashboard) | Track BTC halving-cycle position with 17 backtested indicators | 2026-11-27 |
 | [dynamic-btc-dxy-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-dxy-analytics-dashboard) | Explore BTC and DXY analytics | 2026-11-27 |
 | [BTC-Daily-Short-Call-Premium-Income-Checklist](https://github.com/0xtrvkc/BTC-Daily-Short-Call-Premium-Income-Checklist) | Review a daily BTC short-call checklist | 2026-11-27 |
-| [dynamic-btc-analytics-dashboard](https://github.com/0xtrvkc/dynamic-btc-analytics-dashboard) | Interpret MVRV, cycles, and drawdowns | 2026-11-26 |
 | [Jarn-Neow](https://jarn-neow.vercel.app) | Check forex strategy edge, risk of ruin, and safe position size | 2026-11-26 |
 | [btc-grid-sandbox](https://github.com/0xtrvkc/btc-grid-sandbox) | Compare grid returns, inventory, and range risk | 2026-11-24 |
 | [btcLoanAnalyzer](https://github.com/0xtrvkc/btcLoanAnalyzer) | Compare BTC-loan LTV and repayment paths | 2026-11-24 |
